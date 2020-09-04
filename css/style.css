@@ -1,13 +1,13 @@
 @font-face {
   font-family: OpenSans;
-  src: url(/fonts/OpenSans-Regular.woff);
+  src: url(../fonts/OpenSans-Regular.woff);
   font-style: regular;
   font-weight: 400;
 }
 
 @font-face {
   font-family: OpenSans;
-  src: url(/fonts/OpenSans-Bold.woff);
+  src: url(../fonts/OpenSans-Bold.woff);
   font-style: bold;
   font-weight: 700;
 }
@@ -28,7 +28,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 
-  background-image: url(img/banner-bg.jpg);
+  background-image: url(../img/banner-bg.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -171,7 +171,7 @@ body {
 }
 
 .trend_first {
-  background-image: url(/img/trend1.jpg);
+  background-image: url(../img/trend1.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -193,7 +193,7 @@ body {
 }
 
 .trend_second {
-  background-image: url(/img/trend2.jpg);
+  background-image: url(../img/trend2.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -215,7 +215,7 @@ body {
 }
 
 .trend_third {
-  background-image: url(/img/trend3.jpg);
+  background-image: url(../img/trend3.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -237,7 +237,7 @@ body {
 }
 
 .trend_fourth {
-  background-image: url(/img/trend4.jpg);
+  background-image: url(../img/trend4.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -703,23 +703,23 @@ footer {
 }
 
 .socials-link-pinterest {
-  background-image: url(/svg/001-pinterest.svg);
+  background-image: url(../svg/001-pinterest.svg);
 }
 
 .socials-link-facebook {
-  background-image: url(/svg/002-facebook-logo.svg);
+  background-image: url(../svg/002-facebook-logo.svg);
 }
 
 .socials-link-tumblr {
-  background-image: url(/svg/003-tumblr.svg);
+  background-image: url(../svg/003-tumblr.svg);
 }
 
 .socials-link-twitter {
-  background-image: url(/svg/004-twitter.svg);
+  background-image: url(../svg/004-twitter.svg);
 }
 
 .socials-link-instagram {
-  background-image: url(/svg/005-instagram.svg);
+  background-image: url(../svg/005-instagram.svg);
 }
 
 .socials-link-text {
