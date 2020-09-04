@@ -28,7 +28,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 
-  background-image: url(/img/banner-bg.jpg);
+  background-image: url(img/banner-bg.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
