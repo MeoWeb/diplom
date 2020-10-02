@@ -12,8 +12,14 @@
 <body>
   <div class="welcome">
     <header class="header">
-      <a href="#0" class="logo"> <img src="svg/noemi-logo.svg" alt="logo"> </a>
+      <a href="#0" class="logo"> <img src="svg/noemi-logo.svg" class="logo-img" alt="logo"> </a>
       <nav class="menu">
+
+        <div class="burger-wrapper">
+          <div class="menu-btn"><span></span></div>
+        </div>
+
+
         <ul class="menu-list">
           <li class="menu-list-item"> <a class="menu-link" href="#0">Главная</a> </li>
           <li class="menu-list-item"> <a class="menu-link" href="#0">Посты</a> </li>
@@ -36,11 +42,12 @@
     </header>
     <div class="wrapper-trends">
       <article class="new-trend trend_first">
+        <img src="img/trend1.jpg" class="trend_img" alt="">
         <div class="new-trend-info ">
           <ul class="tag-post-list">
-            <li class="tag-post"> <a href="#0" class="tag-post-link"><span class="post-header-tags">lifestyle</span></a>
-            </li>
-            <li class="tag-post"> <a href="#0" class="tag-post-link"><span class="post-header-tags">interior</span></a>
+            <li class="tag-post"> <a href="#0" class="tag-post-link"><span class="post-header-tags">lifestyle</span>
+              </a> </li>
+            <li class="tag-post"> <a href="#0" class="tag-post-link"><span class="post-header-tags">interior</span> </a>
             </li>
           </ul>
 
@@ -49,7 +56,9 @@
           </a>
         </div>
       </article>
+
       <article class="new-trend trend_second">
+        <img src="img/trend2.jpg" class="trend_img" alt="">
         <div class="new-trend-info ">
           <ul class="tag-post-list">
             <li class="tag-post"> <a href="#0" class="tag-post-link"><span class="post-header-tags">food</span></a>
@@ -61,7 +70,9 @@
           </a>
         </div>
       </article>
+
       <article class="new-trend trend_third">
+        <img src="img/trend3.jpg" class="trend_img" alt="">
         <div class="new-trend-info ">
           <ul class="tag-post-list">
             <li class="tag-post"> <a href="#0" class="tag-post-link"><span class="post-header-tags">lifestyle</span></a>
@@ -75,7 +86,9 @@
           </a>
         </div>
       </article>
+
       <article class="new-trend trend_fourth">
+        <img src="img/trend4.jpg" class="trend_img" alt="">
         <div class="new-trend-info ">
           <ul class="tag-post-list">
             <li class="tag-post"> <a href="#0" class="tag-post-link"><span class="post-header-tags">lifestyle</span></a>
@@ -90,6 +103,7 @@
         </div>
       </article>
     </div>
+
   </section>
 
   <main>
@@ -222,57 +236,6 @@
             <div class="post-content">
               <p>Подушки для дивана целесообразнее заказать в съемных чехлах на молнии, если потребуется чистка подушек,
                 проще снять чехлы, чем везти подушку в химчистку.</p>
-            </div>
-          </div>
-        </article>
-        <article class="post">
-          <div class="post-preview">
-            <img src="img/last-post6.jpg" alt="last-post6">
-          </div>
-          <div class="post-info">
-            <header class="post-header">
-
-              <ul class="tag-post-list">
-                <li class="tag-post"> <a href="#0" class="tag-post-link"><span
-                      class="post-header-tags">travel</span></a> </li>
-                <li class="tag-post"> <a href="#0" class="tag-post-link"><span
-                      class="post-header-tags">lifestyle</span></a> </li>
-              </ul>
-
-              <a href="#0" class="post-header-link">
-                <h2 class="post-header-title">Как первый раз отправиться в горы?</h2>
-              </a>
-              <time class="post-header-date" datetime="2019-06-10">10 июня 2019</time>
-              <span class="post-header-author">Неизвестный автор</span>
-            </header>
-            <div class="post-content">
-              <p>Для начала нужно определиться, в каком формате пройдёт ваше путешествие. Это зависит от многих
-                факторов, не только от ваших желаний и интересов.</p>
-            </div>
-          </div>
-        </article>
-        <article class="post">
-          <div class="post-preview">
-            <img src="img/last-post4.jpg" alt="last-post7">
-          </div>
-          <div class="post-info">
-            <header class="post-header">
-              <ul class="tag-post-list">
-                <li class="tag-post"> <a href="#0" class="tag-post-link"><span
-                      class="post-header-tags">lifestyle</span></a> </li>
-                <li class="tag-post"> <a href="#0" class="tag-post-link"><span class="post-header-tags">food</span></a>
-                </li>
-              </ul>
-
-              <a href="#0" class="post-header-link">
-                <h2 class="post-header-title">Наукоёмкий подход к кулинарии</h2>
-              </a>
-              <time class="post-header-date" datetime="2019-06-10">10 июня 2019</time>
-              <span class="post-header-author">Неизвестный автор</span>
-            </header>
-            <div class="post-content">
-              <p>Узнаем основы проектирования новых пищевых и около-пищевых опытов, вскроем физику, химию и
-                микробиологию еды.</p>
             </div>
           </div>
         </article>
@@ -421,27 +384,30 @@
     </div>
 
     <section class="shop">
-      <header class="header-shop">
+      <div class="header-shop">
         <h2>Наши изделия</h2>
-      </header>
+      </div>
       <div class="shop-desk">
+
         <div class="card">
           <div class="card-image">
             <img src="img/shop-item-desk1.jpg" alt="">
           </div>
           <div class="card-info">
-            <h3>Подушки на диван</h3>
-            <p>Набор из двух подушек с модными принтами. Видео о создании <a href="#0" class="card-info_link">здесь</a>.
-            </p>
-
-            <div class="card-info_bottom">
+            <div class="card-title">
+              <h3>Подушки на диван</h3>
+            </div>
+            <div class="card-description">
+              <p>Набор из двух подушек с модными принтами. Видео о создании <a href="#0"
+                  class="card-info_link">здесь</a>.</p>
+            </div>
+            <div class="card-price">
               <div class="wrapper_price">
                 <div class="old-price">1000 &#8381;</div>
                 <div class="new-price">800 &#8381;</div>
               </div>
-
               <div class="wrapper_btn">
-                <a class="button" href="#0">В магазин</a>
+                <a class="card-btn" href="#0">В магазин</a>
               </div>
             </div>
           </div>
@@ -451,17 +417,19 @@
             <img src="img/shop-item-desk2.jpg" alt="">
           </div>
           <div class="card-info">
-            <h3>Кукла "Зайчик"</h3>
-            <p>Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <a href="#0"
-                class="card-info_link">весенняя серия постов</a> в блоге и несколько подкастов.</p>
-            <div class="card-info_bottom">
+            <div class="card-title">
+              <h3>Кукла "Зайчик"</h3>
+            </div>
+            <div class="card-description">
+              <p>Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <a href="#0"
+                  class="card-info_link">весенняя серия постов</a> в блоге и несколько подкастов.</p>
+            </div>
+            <div class="card-price">
               <div class="wrapper_price">
-
                 <div class="new-price">3500 &#8381;</div>
               </div>
-
               <div class="wrapper_btn">
-                <a class="button" href="#0">В магазин</a>
+                <a class="card-btn" href="#0">В магазин</a>
               </div>
             </div>
           </div>
@@ -470,26 +438,30 @@
           <div class="card-image">
             <img src="img/shop-item-desk3.jpg" alt="">
           </div>
+
           <div class="card-info">
-            <h3>Шестиугольная рамка</h3>
-            <p>Необычная рамка для украшения дома из видео <a href="#0" class="card-info_link">"Как сделать рамку из
-                подручных средств за 30
-                минут"</a>.</p>
-            <div class="card-info_bottom">
+            <div class="card-title">
+              <h3>Шестиугольная рамка</h3>
+            </div>
+            <div class="card-description">
+              <p>Необычная рамка для украшения дома из видео <a href="#0" class="card-info_link">"Как сделать рамку из
+                  подручных средств за 30 минут"</a>.</p>
+            </div>
+            <div class="card-price">
               <div class="wrapper_price">
                 <div class="old-price">500 &#8381;</div>
                 <div class="new-price">400 &#8381;</div>
               </div>
-
               <div class="wrapper_btn">
-                <a class="button" href="#0">В магазин</a>
+                <a class="card-btn" href="#0">В магазин</a>
               </div>
             </div>
-         </div>
+          </div>
         </div>
-      </div>
 
+      </div>
     </section>
+
   </main>
 
   <footer>
